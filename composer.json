@@ -18,8 +18,8 @@
         }
     ],
     "require": {
-        "php": ">=5.5.9",
-        "guzzlehttp/guzzle": "^6.2",
+        "php": ">=5.4.45",
+        "guzzlehttp/guzzle": "^5.3",
         "league/flysystem": "~1.0"
     },
     "require-dev": {
