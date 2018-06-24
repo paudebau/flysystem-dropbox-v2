@@ -4,7 +4,7 @@ namespace Srmklive\Dropbox\Client;
 
 use GuzzleHttp\Client as HttpClient;
 use GuzzleHttp\Exception\ClientException as HttpClientException;
-use GuzzleHttp\Psr7\StreamWrapper;
+use GuzzleHttp\Stream\GuzzleStreamWrapper as StreamWrapper;
 use Srmklive\Dropbox\Exceptions\BadRequest;
 use Srmklive\Dropbox\UploadContent;
 
