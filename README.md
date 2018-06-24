@@ -10,16 +10,26 @@
 
 This package contains a [Flysystem](https://flysystem.thephpleague.com/) adapter for Dropbox API v2.
 
+This fork from [srmklive/flysystem-dropbox-v2](https://github.com/srmklive/flysystem-dropbox-v2) allows for `PHP 5.4+` installation.
+
 # Credits
 
 This package is direct port of [Flysystem Dropbox](https://github.com/spatie/flysystem-dropbox) by [Freek Van der Herten](https://github.com/freekmurze) with support for PHP 5.5 & 5.6. 
 
 # Installation
 
-You can install the package via composer:
+First off, modify `composer.json` to contain the snippet:
+
+``` json
+  "repositories": [
+       {"type": "vcs", "url": "https://github.com/paudebau/flysystem-dropbox-v2"}
+  ],
+```
+
+Then, you can install the package via composer:
 
 ``` bash
-composer require srmklive/flysystem-dropbox-v2
+composer require srmklive/flysystem-dropbox-v2 dev-master
 ```
 
 ## Usage
